@@ -1,0 +1,7 @@
+C:\Users\thish\Desktop\Тестирование и отладка ПО\ЛР1\ЛР1\bin\Debug\ЛР1.exe.config
+C:\Users\thish\Desktop\Тестирование и отладка ПО\ЛР1\ЛР1\bin\Debug\ЛР1.exe
+C:\Users\thish\Desktop\Тестирование и отладка ПО\ЛР1\ЛР1\bin\Debug\ЛР1.pdb
+C:\Users\thish\Desktop\Тестирование и отладка ПО\ЛР1\ЛР1\obj\Debug\ЛР1.csproj.AssemblyReference.cache
+C:\Users\thish\Desktop\Тестирование и отладка ПО\ЛР1\ЛР1\obj\Debug\ЛР1.csproj.CoreCompileInputs.cache
+C:\Users\thish\Desktop\Тестирование и отладка ПО\ЛР1\ЛР1\obj\Debug\ЛР1.exe
+C:\Users\thish\Desktop\Тестирование и отладка ПО\ЛР1\ЛР1\obj\Debug\ЛР1.pdb
