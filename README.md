@@ -11,3 +11,30 @@
 2. Эти данные передаются в метод StartLogin, в котором организован цикл while. Он работает до тех пор, пока метод Login не вернет значение true.
 3. Метод Login проходит через все строки файла "login_data.txt" с шагом 3. Если i и i+1 строки соответственно равны имени пользователя и паролю, то авторизация считается успешной.
 ![image](https://github.com/user-attachments/assets/e1dd6042-871e-427a-9ebc-635740969cd1)
+
+За генерацию числа отвечает метод Rnd
+public static int Rnd()
+{
+    int[] digits = new int[4];
+    int res = 0;
+    Random rnd = new Random();
+    HashSet<int> usedDigits = new HashSet<int>();
+             
+    for (int i = 0; i < 4; i++)
+    {
+        int digit;
+        do
+        {
+            digit = rnd.Next(0, 10);
+        } while (usedDigits.Contains(digit));
+
+        digits[i] = digit;
+        usedDigits.Add(digit);
+    }
+
+	foreach (int dig in digits)
+    {
+        res = res * 10 + dig;
+    }
+    return res;
+}
