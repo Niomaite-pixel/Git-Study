@@ -11,7 +11,7 @@
 1. Пользователь вводит имя пользователя и пароль.
 2. Эти данные передаются в метод StartLogin, в котором организован цикл while. Он работает до тех пор, пока метод Login не вернет значение true.
 3. Метод Login проходит через все строки файла "login_data.txt" с шагом 3. Если i и i+1 строки соответственно равны имени пользователя и паролю, то авторизация считается успешной.
-4. <im src="https://github.com/user-attachments/assets/e1dd6042-871e-427a-9ebc-635740969cd1" width="500">
+<im src="https://github.com/user-attachments/assets/e1dd6042-871e-427a-9ebc-635740969cd1" width="500" height="500">
 ![image](https://github.com/user-attachments/assets/e1dd6042-871e-427a-9ebc-635740969cd1)
 
 ## Генерация чисел
