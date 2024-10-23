@@ -123,6 +123,7 @@ namespace ЛР1
             }
             return res;
         }
+        
         public static void Log(int attempts, string username)
         {
             string logText = $"Победа достигнута за {attempts} попыток в {DateTime.Now} - пользователь {username}\n";
@@ -218,6 +219,7 @@ namespace ЛР1
                 }
             }
         }
+
         public static void StartLogin(string username, string password)
         { 
 			while (Login(username, password) == false)
@@ -230,6 +232,7 @@ namespace ЛР1
 			}
 			Console.WriteLine("Авторизация прошла успешно");
 		}
+
         public static bool Login(string username, string password)
         {
             if (File.Exists(loginData))
