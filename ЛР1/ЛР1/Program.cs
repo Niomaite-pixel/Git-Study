@@ -104,7 +104,7 @@ namespace ЛР1
             int res = 0;
             Random rnd = new Random();
             HashSet<int> usedDigits = new HashSet<int>();
-
+                     
             for (int i = 0; i < 4; i++)
             {
                 int digit;
@@ -117,7 +117,7 @@ namespace ЛР1
                 usedDigits.Add(digit);
             }
 
-            foreach (int dig in digits)
+			foreach (int dig in digits)
             {
                 res = res * 10 + dig;
             }
@@ -190,16 +190,10 @@ namespace ЛР1
 				Console.WriteLine("Код состоит ровно из четырёх цифр! Буквы и другие символы недопустимы!");
 			
 			}
-
-            int a = usersDigits / 1000;
-            int b = usersDigits % 1000 / 100;
-            int c = usersDigits % 100 / 10;
-            int d = usersDigits % 10;
-            int[] arrUsersDigits = { a, b, c, d };
             isCount = 0; //кол-во угаданных цифр
             posCount = 0; //кол-во цифр на своих позициях
 
-            bool allSameDigits = (a == b && b == c && c == d);
+            bool allSameDigits = (usersArray[0] == usersArray[1] && usersArray[1] == usersArray[2] && usersArray[2] == usersArray[3] );
 
             HashSet<int> countedDigits = new HashSet<int>();
 
@@ -215,11 +209,11 @@ namespace ЛР1
                     isCount++;
                     countedDigits.Add(usersArray[i]);
                 }
-                else if (allSameDigits && arrMachineDigits.Contains(a) && !countedDigits.Contains(a))
+                else if (allSameDigits && arrMachineDigits.Contains(usersArray[0]) && !countedDigits.Contains(usersArray[0]))
                 {
                     isCount = 1;
                     posCount = 1;
-                    countedDigits.Add(a);
+                    countedDigits.Add(usersArray[0]);
                     break;
                 }
             }
