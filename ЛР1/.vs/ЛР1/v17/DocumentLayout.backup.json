@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\thish\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0438 \u043E\u0442\u043B\u0430\u0434\u043A\u0430 \u041F\u041E\\\u041B\u04201\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{1113ED5E-F0F0-45E1-9F4F-768AA52CA06D}|\u041B\u04201\\\u041B\u04201.csproj|c:\\users\\thish\\desktop\\\u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0438 \u043E\u0442\u043B\u0430\u0434\u043A\u0430 \u043F\u043E\\\u043B\u04401\\\u043B\u04401\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1113ED5E-F0F0-45E1-9F4F-768AA52CA06D}|\u041B\u04201\\\u041B\u04201.csproj|solutionrelative:\u043B\u04401\\game.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{1113ED5E-F0F0-45E1-9F4F-768AA52CA06D}|\u041B\u04201\\\u041B\u04201.csproj|c:\\users\\thish\\desktop\\\u0442\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0438 \u043E\u0442\u043B\u0430\u0434\u043A\u0430 \u043F\u043E\\\u043B\u04401\\\u043B\u04401\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1113ED5E-F0F0-45E1-9F4F-768AA52CA06D}|\u041B\u04201\\\u041B\u04201.csproj|solutionrelative:\u043B\u04401\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1113ED5E-F0F0-45E1-9F4F-768AA52CA06D}|\u041B\u04201\\\u041B\u04201.csproj|C:\\Users\\thish\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0438 \u043E\u0442\u043B\u0430\u0434\u043A\u0430 \u041F\u041E\\\u041B\u04201\\\u043B\u04401\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1113ED5E-F0F0-45E1-9F4F-768AA52CA06D}|\u041B\u04201\\\u041B\u04201.csproj|solutionrelative:\u043B\u04401\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,12 +31,38 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Game.cs",
+              "DocumentMoniker": "C:\\Users\\thish\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0438 \u043E\u0442\u043B\u0430\u0434\u043A\u0430 \u041F\u041E\\\u041B\u04201\\\u041B\u04201\\Game.cs",
+              "RelativeDocumentMoniker": "\u041B\u04201\\Game.cs",
+              "ToolTip": "C:\\Users\\thish\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0438 \u043E\u0442\u043B\u0430\u0434\u043A\u0430 \u041F\u041E\\\u041B\u04201\\\u041B\u04201\\Game.cs",
+              "RelativeToolTip": "\u041B\u04201\\Game.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAYwDIAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T10:25:42.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\thish\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0438 \u043E\u0442\u043B\u0430\u0434\u043A\u0430 \u041F\u041E\\\u041B\u04201\\\u041B\u04201\\User.cs",
+              "RelativeDocumentMoniker": "\u041B\u04201\\User.cs",
+              "ToolTip": "C:\\Users\\thish\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0438 \u043E\u0442\u043B\u0430\u0434\u043A\u0430 \u041F\u041E\\\u041B\u04201\\\u041B\u04201\\User.cs",
+              "RelativeToolTip": "\u041B\u04201\\User.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAiwHMAAAADAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T00:42:11.746Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\thish\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0438 \u043E\u0442\u043B\u0430\u0434\u043A\u0430 \u041F\u041E\\\u041B\u04201\\\u041B\u04201\\Program.cs",
               "RelativeDocumentMoniker": "\u041B\u04201\\Program.cs",
               "ToolTip": "C:\\Users\\thish\\Desktop\\\u0422\u0435\u0441\u0442\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0438 \u043E\u0442\u043B\u0430\u0434\u043A\u0430 \u041F\u041E\\\u041B\u04201\\\u041B\u04201\\Program.cs",
               "RelativeToolTip": "\u041B\u04201\\Program.cs",
-              "ViewState": "AgIAAGEAAAAAAAAAAIAwwHwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T00:58:14.427Z",
               "EditorCaption": ""
